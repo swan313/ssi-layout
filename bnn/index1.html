@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title></title>
+    <link rel="stylesheet" href="css/reset.css"/>
+</head>
+<body>
+
+
+<a href="index.html?id=1">NavTrailLink1</a><br/>
+<a href="index.html?id=2">NavTrailLink2</a>
+
+
+
+
+<!--#if expr="$QUERY_STRING='id=1'" -->
+    <!--#include virtual="tpls/header.html" -->
+<!--#endif -->
+
+<!--#if expr="$QUERY_STRING='id=2'" -->
+    <!--#include virtual="tpls/footer.html" -->
+<!--#endif -->
+
+
+
+
+
+
+</body>
+</html>

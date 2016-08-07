@@ -1,0 +1,204 @@
+/* css 样式重置 */
+html,body, h1, h2, h3, h4, h5, h6, p, blockquote, pre, code, del, dfn, em, img, strong, dd, dl, dt, li, ol, ul, fieldset, form, label, button, input, table, caption, tbody, tfoot, thead, tr, th, td, menu {
+    margin: 0;
+    padding: 0;
+}
+
+article, aside, details, figcaption, figure, footer, header, hgroup, nav, section {
+    display: block
+}
+
+audio, canvas, video {
+    display: inline-block;
+    *display: inline;
+    *zoom: 1;
+}
+
+audio:not([controls]) {
+    display: none;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+    empty-cells: show;
+}
+
+ol, ul, menu {
+    list-style: none;
+}
+
+img {
+    border: 0;
+}
+
+a:focus {
+    outline: none;
+    box-shadow: none;
+}
+
+em, i {
+    font-style: normal;
+}
+
+button, input, select, textarea {
+    font-size: 100%;
+    margin: 0;
+    vertical-align: -3px;
+    outline: none;
+    box-shadow: none;
+}
+
+button, input {
+    outline: none;
+    line-height: normal;
+    *overflow: visible;
+}
+
+button::-moz-focus-inner, input::-moz-focus-inner {
+    border: 0;
+    padding: 0;
+}
+
+button, input[type="button"], input[type="reset"], input[type="submit"] {
+    cursor: pointer;
+    -webkit-appearance: button;
+}
+
+input[type="search"] {
+    -webkit-appearance: textfield;
+    -webkit-box-sizing: content-box;
+    -moz-box-sizing: content-box;
+    box-sizing: content-box;
+}
+
+input[type="search"]::-webkit-search-decoration {
+    -webkit-appearance: none;
+}
+
+textarea {
+    overflow: auto;
+    vertical-align: top;
+}
+
+input:focus, textarea:focus {
+    outline: none;
+}
+
+::selection {
+    background: #72d0eb;
+    color: #fff;
+    text-shadow: none;
+}
+
+::-moz-selection {
+    background: #72d0eb;
+    color: #fff;
+    text-shadow: none;
+}
+
+*[hidden] {
+    display: none;
+}
+
+a {
+    color: #333;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+a:hover {
+    color: #c81233;
+}
+
+body, button, input, select, textarea, code {
+    font-family: "微软雅黑", "宋体", Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    background-color: #fff;
+}
+
+body {
+    min-width: 1200px;
+    font-size: 16px;
+}
+
+.clearfix:after {
+    content: "\200B";
+    display: block;
+    height: 0;
+    clear: both;
+}
+
+.clearfix {
+    *zoom: 1;
+}
+
+.none {
+    display: none;
+}
+.warp{
+    width: 100%;
+}
+
+
+.header{
+    height: 74px;
+    color: #ffffff;
+    background-color: #2f4e6f;
+    text-align: center;
+}
+.Main{
+    width: 1200px;
+    margin: 0 auto;
+    overflow:hidden;
+    font-family: "微软雅黑";
+}
+.LeftNav,
+.RightNav{
+    width: 170px;
+    height: 700px;
+}
+.LeftNav{
+    background-color:#98b1c4;
+    float: left;
+}
+.RightNav{
+    background-color:#c8d7e3;
+    float: right;
+}
+.Content{
+    width: 860px;
+    float: left;
+}
+
+.trail{
+    background:red;
+    height: 700px;
+}
+.books{
+    background:green;
+    height: 700px;
+}
+.news{
+    background:teal;
+    height: 700px;
+}
+.footer{
+    height: 28px;
+    color: #ffffff;
+    background-color:#000;
+    text-align: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
