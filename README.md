@@ -6,7 +6,7 @@ httpd.conf代码
     AddType text/html .html
     AddOutputFilter INCLUDES .html  
 
-去掉注释 
+去掉注释 !!
 
 例子：
 <Directory "E:\wamp\www">
